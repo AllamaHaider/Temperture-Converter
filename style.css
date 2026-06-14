@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#00449b;
+}
+
+.container{
+    height: 100vh;
+    display:flex;
+    background-color:#040063;
+    justify-content:center;
+    align-items: center;
+    width: 60vmin;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    background-color:#FB923C;
+    padding:20px;
+    height:auto;
+    width:auto;
+    border-radius:2vmin;
+    animation: rotate 2s infinite linear;
+    filter: 20px blur();
+
+}
+
+input{
+    height: 35px;
+    width: 330px;
+    border-radius:0.5rem;
+    border:2px solid black;
+}
+
+.container2{
+    display:flex;
+    margin-top: 2px;
+    background-color: #FB923C;
+    height:auto;
+    justify-content: space-between;
+    
+}
+
+.Bigbox1{
+    background-color: #FB923C;
+}
+
+.box1{
+    width: 150px;
+    height: 35px;
+    border: 2px solid black;
+}
+
+.swap-icon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:#FB923C;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+
+#convert{
+    height: 35px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 1rem;
+    border: 2px solid black;
+    background-color: #587ceb;
+}
+
+.container4 {
+    width: 330px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 19px;
+    color: black;
+}
